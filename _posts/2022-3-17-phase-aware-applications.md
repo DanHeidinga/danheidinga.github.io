@@ -3,7 +3,7 @@ layout: post
 title: 'Static final fields and new deployment models'
 ---
 
-Java's constantly evolving as a language and a runtime environment. That's one of the amazing things about working on Java. Another area where Java's - and let's face it, much of the rest of the ecosystem - is evolving is around deployments. Historically, Java's "sweet spot" has been long running server applications. Today, we're seeing a shift to shorter shorter uptimes due to trends like continous delivery and horizontal scaling. Cloud native approaches are putting pressure on startup time and memory footprint with the wider adoption of containers and kubernetes.
+Java's constantly evolving as a language and a runtime environment. That's one of the amazing things about working on Java. Another area where Java - and let's face it, much of the rest of the ecosystem - is evolving is around deployments. Historically, Java's "sweet spot" has been long running server applications. Today, we're seeing a shift to shorter uptimes due to trends like continous delivery and horizontal scaling. Cloud native approaches are putting pressure on startup time and memory footprint with the wider adoption of containers and kubernetes.
 
 Over the last few years there have been substantial investigations into better deployment models for Java. These new deployment models - like native images and CRIU checkpoint / restore - bring improvements to startup time and memory usage but also new challenges to developing programs.
 
