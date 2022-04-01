@@ -101,7 +101,7 @@ Library and framework developers, sorry but your lives just got (even) harder. W
 
 And `final static` fields will be on the forefront of this challenge. Determining when they get initialized in each of the models is going to be tough. Splitting a library into different versions for each supported model will be a maintenance nightmare. So with one source base you'll need to address all three deployment options.
 
-Choosing to only support one, or two, of the new models may split the ecosystem. This is kind of remicent of concerns around the introduction of the Java Platform Module System splitting the ecosystem - those concerns haven't come to fruition yet due to the slow(ish) uptake of JPMS. The improvements from the new deployment models are more likely to drive quicker adoption leading to increased risk in this area.
+Choosing to only support one, or two, of the new models may split the ecosystem. This is kind of reminiscent of concerns around the introduction of the Java Platform Module System splitting the ecosystem - those concerns haven't come to fruition yet due to the slow(ish) uptake of JPMS. The improvements from the new deployment models are more likely to drive quicker adoption leading to increased risk in this area.
 
 ## No good solutions yet
 Unfortunately, there really aren't good solutions for supporting all models yet. 
