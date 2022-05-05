@@ -144,7 +144,7 @@ There used to be one way to "say what you mean" and it corresponded to "please d
 ## Conclusions
 Having our cake and eating it too is hard. New deployment models give faster startup but complicate the lives of library and framework developers.
 
-We need the language to let us say what we mean, to support new deployment models, and to avoid the maintenance burdens of having multiple ways initial `static final` fields.
+We need the language to let us say what we mean, to support new deployment models, and to avoid the maintenance burdens of having multiple ways to initial `static final` fields.
 
 And we need to be clear on what we mean - does "initialize this lazily" mean must be done as late as possible?  Or just don't do it on my critical path? Or do the opposite if not running on a dynamic JVM?
 
