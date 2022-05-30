@@ -20,8 +20,8 @@ like a straight line.
 
 Now, [CRIU](https://criu.org/Main_Page) investigations such as OpenJDK's 
 [Project CRaC](https://openjdk.java.net/projects/crac/) and Eclipse OpenJ9's
-[CRIU Support project](https://github.com/orgs/eclipse-openj9/projects/1)
-- and really all efforts to use CRIU with Java - have split that single
+[CRIU Support project](https://github.com/orgs/eclipse-openj9/projects/1) - and
+really all efforts to use CRIU with Java - have split that single
 execution into two parts: pre-checkpoint and post-restore.
 
 ![Checkpoint/Restore]({{ site.baseurl }}/images/normal-checkpoint.png)
