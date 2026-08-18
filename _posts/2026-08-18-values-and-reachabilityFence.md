@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reference.reachabilityFence and JEP 401 value types
-published: false
+published: true
 ---
 
 # Reference.reachabilityFence and JEP 401 value types
