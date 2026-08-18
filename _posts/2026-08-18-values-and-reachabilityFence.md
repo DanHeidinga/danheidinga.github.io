@@ -4,8 +4,6 @@ title: Reference.reachabilityFence and JEP 401 value types
 published: true
 ---
 
-# Reference.reachabilityFence and JEP 401 value types
-
 `Reference.reachabilityFence(Object ref)` came up in discussion when reviewing the pull request to merge [JEP 401: Value Classes and Objects (Preview)](https://openjdk.org/jeps/401) into the mainline JDK.  The key question: what should a `reachabilityFence` do for an identity-less value type?
 
 To answer that question, we need to understand both what value objects are and what `reachabilityFence` does.
